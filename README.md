@@ -1,5 +1,6 @@
 # ROS2_via_Python_Turtle
 A repository containing ROS 2 implementations through the Python Turtle module. 
+Done using Linux, Ubuntu 18.04.
 
 ## Prerequisites: 
 * Ubuntu 18.04: https://releases.ubuntu.com/18.04/ (The Desktop Server is Recommended)
