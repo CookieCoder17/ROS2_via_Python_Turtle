@@ -8,5 +8,3 @@ A repository containing ROS 2 implementations through the Python Turtle module.
 * Python 3 is recommended 
 * OpenCV (`pip3 install opencv-python`)
 * imutils: (`pip3 install imutils`)
-
-### Enjoy!
