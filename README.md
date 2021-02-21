@@ -318,3 +318,12 @@ Inside the `src/Example/`folder, you will find four python scripts. Simply run t
   turtle.mainloop()
   ```
   We call the class TurtleMaze to be carried out. And we end it off with the mainloop() function, this  must be the last statement in a turtle graphics program.
+  
+  ### 
+  <p align="center">
+  <img src="https://media.giphy.com/media/eKm75ZTEBc2Utx5WNd/giphy.gif" alt="" width="60%">
+  </p>
+  
+  ### Task to try out 
+In this task, attempt to create a server-client model where the webcam will capture images constantly, convert them to ROS messages and publish them. The turtle server node will receive the coordinates for both the goal and the turtle, and Float64 msg will return the remaining distance. Given the red_detection example `Examples/red_detection.py`, and the `Examples/Goal_seeker.py`  create the final client node subscribing images from the webcam, converting them back to OpenCV iplimage, The client turtle node will then display the turtle using the turtle module and through color detection the turtle should be commanded accordingly. Run the scripts in ROS 2 fashion. The completed scripts can be found in 
+  
