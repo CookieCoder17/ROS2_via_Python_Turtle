@@ -319,11 +319,13 @@ Inside the `src/Example/`folder, you will find four python scripts. Simply run t
   ```
   We call the class TurtleMaze to be carried out. And we end it off with the mainloop() function, this  must be the last statement in a turtle graphics program.
   
-  ### 
-  <p align="center">
+## Task to try out 
+For this task, attempt to create a 2 publisher, 1 subscriber model that displays the turtle in it’s maze, while driving the turtle accordingly from inputs on the keyboard. In the second publisher, create a script to prompt the user to input a color for the turtle. You should end up with 3 files, and have the ability to move the turtle around the maze using the keyboard and change the turtle’s color by prompting the user. Run the scripts in ROS 2 fashion. The completed scripts can be found in `python_turtle/python_turtle` directory.
+
+  <p alig="center">
   <img src="https://media.giphy.com/media/eKm75ZTEBc2Utx5WNd/giphy.gif" alt="" width="60%">
   </p>
   
-  ### Task to try out 
-In this task, attempt to create a server-client model where the webcam will capture images constantly, convert them to ROS messages and publish them. The turtle server node will receive the coordinates for both the goal and the turtle, and Float64 msg will return the remaining distance. Given the red_detection example `Examples/red_detection.py`, and the `Examples/Goal_seeker.py`  create the final client node subscribing images from the webcam, converting them back to OpenCV iplimage, The client turtle node will then display the turtle using the turtle module and through color detection the turtle should be commanded accordingly. Run the scripts in ROS 2 fashion. The completed scripts can be found in 
+## Task to try out 
+In this task, attempt to create a server-client model where the webcam will capture images constantly, convert them to ROS messages and publish them. The turtle server node will receive the coordinates for both the goal and the turtle, and Float64 msg will return the remaining distance. Given the red_detection example `Examples/red_detection.py`, and the `Examples/Goal_seeker.py`  create the final client node subscribing images from the webcam, converting them back to OpenCV iplimage, The client turtle node will then display the turtle using the turtle module and through color detection the turtle should be commanded accordingly. Run the scripts in ROS 2 fashion. The completed scripts can be found in the  `python_turtle/python_turtle` directory.
   
