@@ -12,7 +12,7 @@
 To clone this repository:
 ```
 $ cd
-$ git clone https://github.com/khouka/ROS2_Middleware_Trail_Python_Turtle.git
+$ git clone https://github.com/CookieCoder17/ROS2_via_Python_Turtle.git
 ```
 
 ## Pre-trial Python Scripts:
